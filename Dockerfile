@@ -1,4 +1,4 @@
-FROM nginx:latest
+FROM nginx:alpine
 
 COPY fastcgi.conf /etc/nginx/
 COPY ssl_config.conf /etc/nginx/
